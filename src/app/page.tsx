@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 import AccessTerminal from "./components/modal";
 import Agents from "./components/agent";
 import Link from "next/link";
@@ -92,8 +91,9 @@ export default function Home() {
 					<div className="max-w-2xl mx-auto mb-16">
 						<div className="relative inline-block">
 							<h1 className="text-6xl font-bold mb-8 text-red-500 text-gradient cyberpunk-text">
+								
 								<a href="">
-									<image src="https://i.ibb.co.com/JJ4NzSp/echo.png" alt="Logo" />
+									<img src="https://i.ibb.co/JJ4NzSp/echo.png" alt="Logo" />
 								</a>
 							</h1>
 						</div>
