@@ -93,7 +93,7 @@ export default function Home() {
 						<div className="relative inline-block">
 							<h1 className="text-6xl font-bold mb-8 text-red-500 text-gradient cyberpunk-text">
 								<a href="">
-									<Image src="https://i.ibb.co.com/JJ4NzSp/echo.png" alt="Logo" />
+									<image src="https://i.ibb.co.com/JJ4NzSp/echo.png" alt="Logo" />
 								</a>
 							</h1>
 						</div>
