@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cyberpunk-text {
+  text-shadow: 0 0 5px rgba(0, 255, 0, .5), 0 0 10px rgba(0, 255, 0, .3), 0 0 15px rgba(0, 255, 0, .2), 0 0 20px rgba(0, 255, 0, .1);
+  animation: textGlow 4s ease-in-out infinite alternate;
+}
+@keyframes textGlow {
+  0%, 100% {
+      text-shadow: 0 0 5px rgba(0, 255, 0, .5), 0 0 10px rgba(0, 255, 0, .3), 0 0 15px rgba(0, 255, 0, .2), 0 0 20px rgba(0, 255, 0, .1);
+  }
+
+  50% {
+      text-shadow: 0 0 10px rgba(0, 255, 0, .6), 0 0 20px rgba(0, 255, 0, .4), 0 0 30px rgba(0, 255, 0, .3), 0 0 40px rgba(0, 255, 0, .2);
+  }
+}
