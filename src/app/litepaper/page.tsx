@@ -131,7 +131,7 @@ const ArataDoc = () => {
 							functionality through natural language interaction.
 						</p>
 						<p className="text-red-500/80">
-							This paper outlines the Arata platform's architecture, agent
+							This paper outlines the Arata platforms architecture, agent
 							capabilities, and adaptive learning mechanisms that allow our
 							agents to evolve and improve through continuous interaction with
 							users.
@@ -161,7 +161,7 @@ const ArataDoc = () => {
 					<h2 className="text-xl">2. Agent Capabilities</h2>
 					<section className="space-y-4 border border-red-500/20 rounded-lg p-6">
 						<p className="text-red-500/80 mb-4">
-							Arata's marketplace features 25 specialized agents, each with
+							Aratas marketplace features 25 specialized agents, each with
 							unique capabilities:
 						</p>
 
@@ -244,7 +244,7 @@ const ArataDoc = () => {
 					<h2 className="text-xl">4. Security and Privacy</h2>
 					<section className="space-y-4 border border-red-500/20 rounded-lg p-6">
 						<p className="text-red-500/80">
-							Security and privacy are fundamental to Arata's design. Our
+							Security and privacy are fundamental to Aratas design. Our
 							platform implements:
 						</p>
 						<ul className="space-y-2 text-red-500/80 ml-4">
@@ -267,7 +267,7 @@ const ArataDoc = () => {
 							complexity.
 						</p>
 						<p className="text-red-500/80">
-							Our platform's combination of specialized agents, adaptive
+							Our platforms combination of specialized agents, adaptive
 							learning, and robust security creates a powerful ecosystem for
 							AI-driven task automation and assistance, setting a new standard
 							for AI accessibility and effectiveness.
